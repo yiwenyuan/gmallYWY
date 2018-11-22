@@ -1,12 +1,12 @@
 package com.ywy.gmall.usermanage.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.ywy.gmall.bean.UserAddress;
 import com.ywy.gmall.bean.UserInfo;
 import com.ywy.gmall.service.UserInfoService;
 import com.ywy.gmall.usermanage.mapper.UserAddressMapper;
 import com.ywy.gmall.usermanage.mapper.UserInfoMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
